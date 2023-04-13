@@ -1,0 +1,255 @@
+/* Define fontes */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/* Define variáveis de cores */
+:root {
+    --cor-primaria: #23608f;
+    --cor-secundaria: #e6e6e6;
+    --cor-terciaria: #444444;
+}
+
+/* Define estilos para o corpo do documento */
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Define estilos para o cabeçalho */
+header {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Define estilos para o título principal */
+h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Define estilos para subtítulos */
+h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-primaria);
+}
+
+/* Define estilos para as seções de informações */
+.section {
+    margin-top: 40px;
+}
+
+.section h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 20px 0;
+}
+
+.section ul li span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+.section ul li p {
+    margin: 5px 0 0;
+    font-size: 0.8em;
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Define estilos para as habilidades */
+.skills h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.skills ul li span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+.skills ul li:before {
+    content: '';
+    display: inline-block;
+}
+/* Define estilos para a barra de progresso das habilidades */
+.skills ul li .progress-bar {
+    height: 10px;
+    width: 200px;
+    background-color: var(--cor-secundaria);
+    position: relative;
+    border-radius: 5px;
+    }
+    
+    .skills ul li .progress-bar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    }
+    
+    .skills ul li .progress-bar span {
+    position: absolute;
+    top: -25px;
+    left: 220px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: var(--cor-primaria);
+    font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    /* Define estilos para a seção de experiência */
+    .experience h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    
+    .experience ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .experience ul li {
+    margin: 20px 0;
+    }
+    
+    .experience ul li span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    }
+    
+    .experience ul li p {
+    margin: 5px 0 0;
+    font-size: 0.8em;
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    /* Define estilos para a seção de educação */
+    .education h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    
+    .education ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .education ul li {
+    margin: 20px 0;
+    }
+    
+    .education ul li span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    }
+    
+    .education ul li p {
+    margin: 5px 0 0;
+    font-size: 0.8em;
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    /* Define estilos para a seção de idiomas */
+    .languages h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-primaria);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    
+    .languages ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .languages ul li {
+    margin: 20px 0;
+    }
+    
+    .languages ul li span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--cor-terciaria);
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
